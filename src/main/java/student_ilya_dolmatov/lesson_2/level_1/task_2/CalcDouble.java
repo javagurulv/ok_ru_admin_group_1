@@ -1,8 +1,8 @@
-package student_ilya_dolmatov.lesson_2.level_1;
+package student_ilya_dolmatov.lesson_2.level_1.task_2;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class CalcDouble {
     public static void main(String[] args) {
         System.out.println("Введите первое число:");
         Scanner scanner = new Scanner(System.in);

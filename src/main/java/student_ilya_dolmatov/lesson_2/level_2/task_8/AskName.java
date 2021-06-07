@@ -1,4 +1,4 @@
-package student_ilya_dolmatov.lesson_2.level_2;
+package student_ilya_dolmatov.lesson_2.level_2.task_8;
 
 import java.util.Scanner;
 

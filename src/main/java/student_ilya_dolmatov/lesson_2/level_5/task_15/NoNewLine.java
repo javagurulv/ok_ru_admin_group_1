@@ -1,4 +1,4 @@
-package student_ilya_dolmatov;
+package student_ilya_dolmatov.lesson_2.level_5.task_15;
 
 public class NoNewLine {
     public static void main(String[] args) {
