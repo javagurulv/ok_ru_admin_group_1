@@ -10,6 +10,7 @@ public class Calculator {
         System.out.println("Введите второе число:");
         scanner = new Scanner(System.in);
         Double secondNumber = scanner.nextDouble();
+
         System.out.println("Результаты сложения:");
         System.out.println(firstNumber + secondNumber);
         System.out.println("Результаты вычитания:");
