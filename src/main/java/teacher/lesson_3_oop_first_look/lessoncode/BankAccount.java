@@ -5,6 +5,8 @@ class BankAccount {
     private final String owner;
     private int moneyAmount;
 
+    dfdf
+
     public BankAccount(String owner) {
         this.owner = owner;
         this.moneyAmount = 0;
