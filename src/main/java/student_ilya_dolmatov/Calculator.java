@@ -19,12 +19,5 @@ public class Calculator {
         System.out.println("Результаты деления:");
         System.out.println(firstNumber / secondNumber);
 
-
-//        Scanner scanner = new Scanner(System.in);
-//        int firstNumber = scanner.nextInt();
-//        4. Запишите полученные результаты в переменные;
-//        5. При помощи System.out.println() выведите на консоль полученные результаты сложения, вычитания, умножения и деления.
-//        (каждый результат на новой строке отдельно).
-
     }
 }
