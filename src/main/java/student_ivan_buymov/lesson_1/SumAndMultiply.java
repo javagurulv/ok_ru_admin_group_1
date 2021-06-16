@@ -1,6 +1,6 @@
 package student_ivan_buymov.lesson_1;
 
-public class lesson_1 {
+public class SumAndMultiply {
 
     public static void main(String[] args) {
 
