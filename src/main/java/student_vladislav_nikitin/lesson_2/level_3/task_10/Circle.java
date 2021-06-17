@@ -6,12 +6,12 @@ public class Circle {
     double radius;
     double perimeter;
     double area;
-    final double pi = 3.14159265359;
+    static final double PI = 3.14159265359;
 
     public Circle(double r) {
         this.radius = r;
-        this.perimeter = 2 * this.pi * r;
-        this.area = this.pi * Math.pow(radius, 2);
+        this.perimeter = 2 * PI * r;
+        this.area = PI * Math.pow(radius, 2);
     }
 
     static double getRadiusFromInput(String message) {
