@@ -2,6 +2,9 @@ package student_ilya_dolmatov.lesson_2.level_3.task_10;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Radius {
     public static void main(String[] args) {
         System.out.println("Введите радиус круга(вещественно число):");

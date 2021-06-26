@@ -1,5 +1,8 @@
 package student_ilya_dolmatov.lesson_2.level_7.task_32;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Comments {
     public static void main(String[] args) {
 
