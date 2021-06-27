@@ -6,10 +6,29 @@ class BooleanExample {
 
 	public static void main(String[] args) {
 
+		if (3 > 4) {
+			System.out.println("sffdf");
+			System.out.println("sffdf");
+			System.out.println("sffdf");
+			System.out.println("sffdf");
+		}
+
+
+		if (3 > 4)
+			System.out.println("sffdf");
+
+		System.out.println("sffdf");
+
+
+
 		boolean isTrue = 3 < 0;
 
 		isTrue = true;
 		isTrue = false;
+
+		if (isTrue) {
+
+		}
 
 		int number = 10;
 
