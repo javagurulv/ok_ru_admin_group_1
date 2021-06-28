@@ -11,6 +11,10 @@ class CalculatorTest {
 	}
 
 	// Test 1: f = -10; s = -3; r = -13
+	// Test 2: f = 0; s = 0; r = 0
+	// Test 3: f = 10; s = -3; r = 7
+
+
 	public void test1() {
 		int firstNumber = -10;
 		int secondNumber = -3;
