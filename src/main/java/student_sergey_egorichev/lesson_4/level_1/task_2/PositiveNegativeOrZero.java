@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_4.level_1.task_2;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class PositiveNegativeOrZero {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

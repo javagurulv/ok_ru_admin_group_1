@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_2.level_7.task_32;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class HowCommentsWorks {
     /** Sometimes we need to comment few lines.
      For example it will be class or method documentation.

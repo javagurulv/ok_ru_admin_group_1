@@ -1,7 +1,8 @@
 package student_sergey_egorichev.lesson_3.level_7.task_31;
 
-import java.io.PrintStream;
+import teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 public class Product {
 
     String name;

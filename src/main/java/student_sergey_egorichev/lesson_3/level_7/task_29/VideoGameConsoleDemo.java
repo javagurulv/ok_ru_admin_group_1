@@ -3,6 +3,9 @@ package student_sergey_egorichev.lesson_3.level_7.task_29;
 import java.util.HashMap;
 import java.util.Map;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class VideoGameConsoleDemo {
 
     public static void main(String[] args) {

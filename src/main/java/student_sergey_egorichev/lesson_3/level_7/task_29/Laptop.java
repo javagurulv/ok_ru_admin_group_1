@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_3.level_7.task_29;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Laptop {
     String marufacturer;
     String model;

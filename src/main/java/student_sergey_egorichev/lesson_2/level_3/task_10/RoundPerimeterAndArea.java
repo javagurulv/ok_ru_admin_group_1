@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_2.level_3.task_10;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class RoundPerimeterAndArea {
     public static void main(String[] args) {
         System.out.println("""

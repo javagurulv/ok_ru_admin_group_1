@@ -4,6 +4,9 @@ package student_maxim_narodovich.lesson_2.level_7.task_32;
 import java.util.Scanner;
 import java.lang.Math;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class CirclesWithComments {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_3.level_3.task_13;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class RobotDemo {
 
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package student_maxim_narodovich.lesson_3.level_4.task_16;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Car {
 
     String model;

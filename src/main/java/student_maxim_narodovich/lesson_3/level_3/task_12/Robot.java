@@ -1,5 +1,8 @@
 package student_maxim_narodovich.lesson_3.level_3.task_12;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Robot {
 
     String name;

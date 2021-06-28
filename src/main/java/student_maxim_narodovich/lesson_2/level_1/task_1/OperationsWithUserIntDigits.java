@@ -2,6 +2,9 @@ package student_maxim_narodovich.lesson_2.level_1.task_1;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class OperationsWithUserIntDigits {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

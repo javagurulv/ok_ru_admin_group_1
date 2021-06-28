@@ -1,5 +1,8 @@
 package student_maxim_narodovich.lesson_2.level_6.task_23;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class AttentionPlease {
 
 
