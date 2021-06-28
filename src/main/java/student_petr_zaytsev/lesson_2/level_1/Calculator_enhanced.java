@@ -1,4 +1,4 @@
-package student_petr_zaytsev.lesson_2;
+package student_petr_zaytsev.lesson_2.level_1;
 import java.util.Scanner;
 
 public class Calculator_enhanced {

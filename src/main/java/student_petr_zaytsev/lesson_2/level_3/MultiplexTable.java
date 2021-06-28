@@ -1,4 +1,4 @@
-package student_petr_zaytsev.lesson_2;
+package student_petr_zaytsev.lesson_2.level_3;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
@@ -18,7 +18,7 @@ public class MultiplexTable {
             int x = range[i];
             String message = num + " X " + x + " = ";
             double result = num * x;
-            System.out.print(message + result + "\n");
+            System.out.println(message + result );
         }
 
     }
