@@ -2,12 +2,15 @@ package student_yuri_grigorov.lesson_2.level_1_intern.task_1;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
 /**
  * This class performs simple calculations with two integers
  *
  * @author Yuri Grigorov
  */
 
+@CodeReview(approved = true)
 public class SimpleCalcInt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

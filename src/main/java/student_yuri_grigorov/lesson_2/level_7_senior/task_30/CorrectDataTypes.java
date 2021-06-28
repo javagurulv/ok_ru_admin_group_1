@@ -1,5 +1,7 @@
 package student_yuri_grigorov.lesson_2.level_7_senior.task_30;
 
+import teacher.codereview.CodeReview;
+
 /**
  * Fix the code
  *
@@ -23,6 +25,7 @@ package student_yuri_grigorov.lesson_2.level_7_senior.task_30;
  * @author Yuri Grigorov
  */
 
+@CodeReview(approved = true)
 public class CorrectDataTypes {
     public static void main(String[] args) {
 

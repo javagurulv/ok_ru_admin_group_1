@@ -2,12 +2,15 @@ package student_yuri_grigorov.lesson_2.level_3_junior.task_11;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
 /**
  * The class Avg asks user to enter tree numbers and performs calculation of average.
  *
  * @author Yuri Grigorov
  */
 
+@CodeReview(approved = true)
 public class Avg {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

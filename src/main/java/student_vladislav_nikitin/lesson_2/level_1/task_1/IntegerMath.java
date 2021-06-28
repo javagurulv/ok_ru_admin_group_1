@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_2.level_1.task_1;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class IntegerMath {
     static int getIntegerFromInput(String message) {
         Scanner scanner = new Scanner(System.in);

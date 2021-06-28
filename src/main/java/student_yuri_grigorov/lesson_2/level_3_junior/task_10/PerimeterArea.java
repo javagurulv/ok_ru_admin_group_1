@@ -2,12 +2,15 @@ package student_yuri_grigorov.lesson_2.level_3_junior.task_10;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
 /**
  * The class PerimeterArea asks user to enter radius and performs calculation of perimeter and area
  *
  * @author Yuri Grigorov
  */
 
+@CodeReview(approved = true)
 public class PerimeterArea {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

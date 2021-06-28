@@ -1,5 +1,7 @@
 package student_yuri_grigorov.lesson_2.level_6_middle.task_23;
 
+import teacher.codereview.CodeReview;
+
 /**
  * Fix the code
  *
@@ -15,6 +17,7 @@ package student_yuri_grigorov.lesson_2.level_6_middle.task_23;
  * @author Yuri Grigorov
  */
 
+@CodeReview(approved = true)
 public class AttentionPlease {
     public static void main(String[] args) {
         System.out.println("Code outside the method will not compile!");

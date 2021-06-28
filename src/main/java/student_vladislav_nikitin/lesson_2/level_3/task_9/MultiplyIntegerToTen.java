@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_2.level_3.task_9;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class MultiplyIntegerToTen {
     static int getIntegerFromInput(String message) {
         Scanner scanner = new Scanner(System.in);

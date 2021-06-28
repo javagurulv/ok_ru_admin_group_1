@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_2.level_3.task_10;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Circle {
     double radius;
     double perimeter;
