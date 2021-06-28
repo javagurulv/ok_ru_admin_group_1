@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_4.level_6.task_17;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class StockTest {
     public static void main(String[] args) {
         createStockTest();

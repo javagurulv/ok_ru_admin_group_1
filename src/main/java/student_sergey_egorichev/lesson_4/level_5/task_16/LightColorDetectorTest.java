@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_4.level_5.task_16;
 
 import java.util.Random;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class LightColorDetectorTest {
     public static void main(String[] args) {
         detectViolet();

@@ -2,6 +2,11 @@ package student_sergey_egorichev.lesson_4.level_3.task_8;
 
 import java.util.*;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Довольно сложное решение. Попробуй вынести операцию нахождения наибольшего числа в отдельный метод и потом несколько раз воспользоваться ей.")
 public class CompareThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

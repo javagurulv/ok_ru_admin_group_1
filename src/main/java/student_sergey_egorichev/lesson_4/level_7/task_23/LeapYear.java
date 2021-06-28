@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_4.level_7.task_23;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LeapYear {
     public boolean isLeapYear(int year) {
         if (!isDiv4(year)) {

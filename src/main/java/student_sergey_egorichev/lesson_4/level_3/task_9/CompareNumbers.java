@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class CompareNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

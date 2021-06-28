@@ -1,5 +1,9 @@
 package student_sergey_egorichev.lesson_4.level_4.task_13;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
 public class CalculatorTest {
 
     public static void main(String[] args) {
@@ -67,6 +71,7 @@ public class CalculatorTest {
         }
     }
 
+    @CodeReviewComment(teacher = "Хороший тест должен проверять только один сценарий. Этот тест кейс надо разбить на два теста.")
     public  void isEvenTest() {
         int evenNumber = 4;
         int oddNumber = 5;

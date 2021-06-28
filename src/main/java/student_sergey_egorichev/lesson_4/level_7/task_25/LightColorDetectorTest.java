@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_4.level_7.task_25;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetectorTest {
     public static void main(String[] args) {
         testColor(405, "Violet");

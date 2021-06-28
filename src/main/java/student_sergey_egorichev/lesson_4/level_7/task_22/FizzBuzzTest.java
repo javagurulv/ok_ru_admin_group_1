@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_4.level_7.task_22;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzzTest {
     public static void main(String[] args) {
         FizzTest();

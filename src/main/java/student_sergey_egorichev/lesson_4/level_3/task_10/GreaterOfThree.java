@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_4.level_3.task_10;
 
 import java.util.*;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class GreaterOfThree {
     public static void main(String[] args) {
         int result;
