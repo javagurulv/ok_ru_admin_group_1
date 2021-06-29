@@ -99,4 +99,70 @@ class CalculatorTest {
             System.out.println("IsBothEqTest test = FAIL");
         }
     }
+
+    void firstOfThreeTest() {
+        int firstNumber = 4;
+        int secondNumber = 2;
+        int thirdNumber = 3;
+        int expectedResult = 4;
+        Calculator calculator = new Calculator(firstNumber, secondNumber, thirdNumber);
+        int realResult = calculator.maxOfThreeNumbers();
+        if (realResult == expectedResult) {
+            System.out.println("firstOfThreeTest test = OK");
+        } else {
+            System.out.println("firstOfThreeTest test = FAIL");
+        }
+    }
+    void secondOfThreeTest() {
+        int firstNumber = 4;
+        int secondNumber = 5;
+        int thirdNumber = 3;
+        int expectedResult = 5;
+        Calculator calculator = new Calculator(firstNumber, secondNumber, thirdNumber);
+        int realResult = calculator.maxOfThreeNumbers();
+        if (realResult == expectedResult) {
+            System.out.println("secondOfThreeTest test = OK");
+        } else {
+            System.out.println("secondOfThreeTest test = FAIL");
+        }
+    }
+    void thirdOfThreeTest() {
+        int firstNumber = 4;
+        int secondNumber = 2;
+        int thirdNumber = 6;
+        int expectedResult = 6;
+        Calculator calculator = new Calculator(firstNumber, secondNumber, thirdNumber);
+        int realResult = calculator.maxOfThreeNumbers();
+        if (realResult == expectedResult) {
+            System.out.println("thirdOfThreeTest test = OK");
+        } else {
+            System.out.println("thirdOfThreeTest test = FAIL");
+        }
+    }
+    void firstTwoOfThreeTest() {
+        int firstNumber = 4;
+        int secondNumber = 4;
+        int thirdNumber = 3;
+        int expectedResult = 4;
+        Calculator calculator = new Calculator(firstNumber, secondNumber, thirdNumber);
+        int realResult = calculator.maxOfThreeNumbers();
+        if (realResult == expectedResult) {
+            System.out.println("firstTwoOfThreeTest test = OK");
+        } else {
+            System.out.println("firstTwoOfThreeTest test = FAIL");
+        }
+    }
+    void equalOfThreeTest() {
+        int firstNumber = 4;
+        int secondNumber = 4;
+        int thirdNumber = 4;
+        int expectedResult = 4;
+        Calculator calculator = new Calculator(firstNumber, secondNumber, thirdNumber);
+        int realResult = calculator.maxOfThreeNumbers();
+        if (realResult == expectedResult) {
+            System.out.println("equalOfThreeTest test = OK");
+        } else {
+            System.out.println("equalOfThreeTest test = FAIL");
+        }
+    }
 }

@@ -11,8 +11,15 @@ class CalculatorDemo {
         calculatorTest.isFirstGreaterTest();
         calculatorTest.isSecondGreaterTest();
         calculatorTest.isBothEqTest();
+        calculatorTest.firstOfThreeTest();
+        calculatorTest.secondOfThreeTest();
+        calculatorTest.thirdOfThreeTest();
+        calculatorTest.firstTwoOfThreeTest();
+        calculatorTest.equalOfThreeTest();
 
-        Calculator check = new Calculator(5,2);
-        System.out.println(check.maxOfTwoNumbers());
+        Calculator checkTwo = new Calculator(5,2);
+        System.out.println(checkTwo.maxOfTwoNumbers());
+        Calculator checkThree = new Calculator(5,3,8);
+        System.out.println(checkThree.maxOfThreeNumbers());
     }
 }

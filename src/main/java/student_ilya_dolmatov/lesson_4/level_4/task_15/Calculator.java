@@ -3,14 +3,21 @@ package student_ilya_dolmatov.lesson_4.level_4.task_15;
 class Calculator {
     int firstNumber;
     int secondNumber;
+    int thirdNumber;
 
+
+
+    Calculator(int firstNumber){
+        this.firstNumber = firstNumber;
+    }
     Calculator(int firstNumber, int secondNumber){
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
     }
-
-    Calculator(int firstNumber){
+    Calculator(int firstNumber, int secondNumber, int thirdNumber){
         this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+        this.thirdNumber = thirdNumber;
     }
 
     int sum() {
@@ -35,6 +42,18 @@ class Calculator {
             return secondNumber;
         } else {
             return firstNumber;
+        }
+    }
+
+    int maxOfThreeNumbers() {
+        if (firstNumber == secondNumber && firstNumber == thirdNumber) {
+            return firstNumber;
+        } else if (firstNumber >= secondNumber && firstNumber >= thirdNumber){
+            return firstNumber;
+        } else if(secondNumber >= firstNumber && secondNumber >= thirdNumber) {
+            return secondNumber;
+        } else {
+            return thirdNumber;
         }
     }
 }
