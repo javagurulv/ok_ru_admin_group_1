@@ -7,7 +7,7 @@ class Dog {
         this.petName = petName;
     }
 
-    void Voice() {
+    void voice() {
         System.out.println(this.petName);
         System.out.println(this.petName);
         System.out.println(this.petName);

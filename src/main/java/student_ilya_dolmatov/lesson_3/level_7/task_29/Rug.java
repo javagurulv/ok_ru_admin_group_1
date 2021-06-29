@@ -11,7 +11,7 @@ class Rug {
         this.appearance = appearance;
     }
 
-    void GetOpinion(){
+    void getOpinion(){
         System.out.println("That rug is " + this.size + ".");
         System.out.println("And located at " + this.location + ".");
         System.out.println("Also... " + this.appearance + ".\n");

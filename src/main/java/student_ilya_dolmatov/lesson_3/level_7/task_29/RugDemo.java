@@ -6,8 +6,8 @@ class RugDemo {
         Rug newRug = new Rug("small", "bathroom", "Looks like... Rubbish...");
 
 
-        oldRug.GetOpinion();
-        newRug.GetOpinion();
+        oldRug.getOpinion();
+        newRug.getOpinion();
 
     }
 }

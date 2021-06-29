@@ -8,7 +8,7 @@ class Dog {
         this.petName = petName;
         this.petAge = petAge;
     }
-    void Voice() {
+    void voice() {
         System.out.println("Pet name is: " + this.petName + "\nPet age is: " + this.petAge);
     }
 }

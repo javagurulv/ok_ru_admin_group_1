@@ -11,7 +11,7 @@ class Dog {
         this.petColor = petColor;
     }
 
-    void Voice() {
+    void voice() {
         System.out.println("Pet name is: " + this.petName + "\n" +
                 "Pet color is: " + this.petColor + "\n" +
                 "Pet age is: " + this.petAge + "\n");

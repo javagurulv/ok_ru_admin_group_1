@@ -9,12 +9,12 @@ class Dog {
         this.petColor = petColor;
     }
 
-    void ChangeColor(String newColor){
+    void changeColor(String newColor){
         System.out.println("Changing " + this.petName + "'s color from " + this.petColor + " to " + newColor + "!\n");
         this.petColor = newColor;
     }
 
-    void Voice(){
+    void voice(){
         System.out.println("Pet name is: " + this.petName + "\n" +
                 "Pet color is: " + this.petColor + "\n");
     }
