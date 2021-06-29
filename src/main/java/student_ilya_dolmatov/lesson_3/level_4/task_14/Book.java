@@ -1,6 +1,6 @@
 package student_ilya_dolmatov.lesson_3.level_4.task_14;
 
-public class Book {
+class Book {
     String title;
 
     Book(String bookTitle) {

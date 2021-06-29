@@ -1,6 +1,6 @@
 package student_ilya_dolmatov.lesson_3.level_3.task_13;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
 
         Robot robot1 = new Robot("Добрый-Заяц-Робот");

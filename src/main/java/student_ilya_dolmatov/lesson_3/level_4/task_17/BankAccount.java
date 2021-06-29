@@ -1,6 +1,6 @@
 package student_ilya_dolmatov.lesson_3.level_4.task_17;
 
-public class BankAccount {
+class BankAccount {
     String ownerFirstName;
     String ownerLastName;
     int moneyAmount;
