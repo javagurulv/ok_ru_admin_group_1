@@ -1,9 +1,16 @@
-package student_sergey_egorichev.lesson_5.level_2.task_12;
+package student_sergey_egorichev.lesson_5.level_4.task_28;
+
+import java.util.Arrays;
 
 class RandomArray {
+
     public static void main(String[] args) {
-        int[] myArray = generateArray(3);
+
+        int arrayLength = (int) ((Math.random() * 10) + 3);
+        int[] myArray = generateArray(arrayLength);
+
         printArray(myArray);
+        System.out.println("MIN: " + Arrays.stream(myArray).min().getAsInt());
     }
 
     private static int[] generateArray(int length) {
@@ -16,7 +23,8 @@ class RandomArray {
 
     private static void printArray(int [] someArray) {
         for (int i = 0; i < someArray.length; i ++) {
-            System.out.println(someArray[i]);
+            System.out.print(someArray[i] + " ");
         }
+        System.out.print("\n");
     }
 }

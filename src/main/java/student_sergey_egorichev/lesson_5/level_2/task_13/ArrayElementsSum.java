@@ -2,11 +2,11 @@ package student_sergey_egorichev.lesson_5.level_2.task_13;
 
 class ArrayElementsSum {
     public static void main(String[] args) {
-        int[] myArray = createArray(3);
+        int[] myArray = generateArray(3);
         System.out.println(getArrayElementsSum(myArray));
     }
 
-    private static int[] createArray(int length) {
+    private static int[] generateArray(int length) {
         int[] numbers = new int[length];
         for (int i = 0; i < length; i++) {
             numbers[i] = (int) (Math.random()*100);
