@@ -16,6 +16,12 @@ class StockDemo {
 
         System.out.println("\nStart tests!");
         StockTest test1 = new StockTest();
-        test1.stockCasualTest();
+        test1.stock1Test();
+        test1.stock2Test();
+        test1.stock3Test();
+        test1.stock4Test();
+        test1.stock5Test();
+        test1.stock6Test();
+
     }
 }
