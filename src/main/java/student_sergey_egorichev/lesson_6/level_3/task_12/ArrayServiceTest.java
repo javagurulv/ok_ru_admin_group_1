@@ -8,6 +8,7 @@ public class ArrayServiceTest {
          * Main function. Starts tests.
          */
         hasNumberTest();
+        hasNumberFailTest();
 
     }
 
@@ -27,10 +28,24 @@ public class ArrayServiceTest {
     }
 
     private static void hasNumberTest () {
+        /**
+         * Test situation "the number is contained in the array"
+         */
         int[] array = {5, 12, 26, 14};
         int numberToSearch = 12;
         checkTestResult("Has Number",
                 ArrayService.hasNumber(array, numberToSearch));
+
+    }
+
+    private static void hasNumberFailTest () {
+        /**
+         * Test situation "the number is not contained in the array"
+         */
+        int[] array = {5, 12, 26, 14};
+        int numberToSearch = 24;
+        checkTestResult("Has Number (Fail)",
+                !ArrayService.hasNumber(array, numberToSearch));
 
     }
 
