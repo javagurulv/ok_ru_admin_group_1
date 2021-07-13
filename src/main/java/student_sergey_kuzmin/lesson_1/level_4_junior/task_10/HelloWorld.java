@@ -1,4 +1,4 @@
-package student_sergey_kuzmin.lesson_1.Task_10;
+package student_sergey_kuzmin.lesson_1.level_4_junior.task_10;
 
 import teacher.codereview.CodeReview;
 
