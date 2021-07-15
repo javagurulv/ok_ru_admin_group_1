@@ -2,6 +2,9 @@ package student_ilya_dolmatov.lesson_4.level_2.task_6;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Less {
     public static void main(String[] args) {
         System.out.println("Please input two numbers!");

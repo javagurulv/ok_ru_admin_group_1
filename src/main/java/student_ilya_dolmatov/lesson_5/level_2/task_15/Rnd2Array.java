@@ -2,6 +2,9 @@ package student_ilya_dolmatov.lesson_5.level_2.task_15;
 
 import java.util.Random;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Rnd2Array {
     public static void main(String[] args) {
         int[] array = new int[3];

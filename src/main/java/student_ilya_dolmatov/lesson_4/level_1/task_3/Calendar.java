@@ -2,6 +2,9 @@ package student_ilya_dolmatov.lesson_4.level_1.task_3;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Calendar {
     public static void main(String[] args) {
 

@@ -2,7 +2,14 @@ package student_ilya_dolmatov.lesson_4.level_3.task_8;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = false)
 class ThreeNumbers {
+
+	@CodeReviewComment(teacher = "Объект Scanner можно использовать многократно. "
+			+ "Не нужно каждый раз создавать новый объект.")
     public static void main(String[] args) {
         System.out.println("Please input three numbers!");
 

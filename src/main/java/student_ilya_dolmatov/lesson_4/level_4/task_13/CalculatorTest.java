@@ -1,8 +1,9 @@
 package student_ilya_dolmatov.lesson_4.level_4.task_13;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorTest {
-    int firstNumber = 5;
-    int secondNumber = 2;
 
     CalculatorTest(){}
 

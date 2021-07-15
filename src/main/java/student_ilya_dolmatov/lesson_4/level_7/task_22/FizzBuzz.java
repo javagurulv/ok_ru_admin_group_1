@@ -1,6 +1,8 @@
 package student_ilya_dolmatov.lesson_4.level_7.task_22;
 
+import teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class FizzBuzz {
     int number;
     String result;

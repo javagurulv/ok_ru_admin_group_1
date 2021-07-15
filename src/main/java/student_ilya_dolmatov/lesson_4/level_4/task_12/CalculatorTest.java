@@ -1,5 +1,8 @@
 package student_ilya_dolmatov.lesson_4.level_4.task_12;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorTest {
     public static void main(String[] args) {
 
