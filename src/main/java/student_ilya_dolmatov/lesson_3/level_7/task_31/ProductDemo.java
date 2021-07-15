@@ -1,5 +1,8 @@
 package student_ilya_dolmatov.lesson_3.level_7.task_31;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ProductDemo {
     public static void main(String[] args) {
         Product product1 = new Product("Book");

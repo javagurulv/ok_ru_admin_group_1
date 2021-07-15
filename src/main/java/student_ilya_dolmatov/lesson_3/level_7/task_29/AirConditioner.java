@@ -1,5 +1,8 @@
 package student_ilya_dolmatov.lesson_3.level_7.task_29;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class AirConditioner {
     String type;
     String vendor;

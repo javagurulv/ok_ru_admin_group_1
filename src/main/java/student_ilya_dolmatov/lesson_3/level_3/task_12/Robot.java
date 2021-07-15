@@ -1,6 +1,11 @@
 package student_ilya_dolmatov.lesson_3.level_3.task_12;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
 class Robot {
+	@CodeReviewComment(teacher = "Лучше свойства объявлять private")
     String robotName;
     Robot(String robotName) {
         this.robotName = robotName;
