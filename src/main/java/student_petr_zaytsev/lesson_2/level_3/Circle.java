@@ -1,6 +1,9 @@
 package student_petr_zaytsev.lesson_2.level_3;
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Circle {
     public static void main(String[] args) {
 

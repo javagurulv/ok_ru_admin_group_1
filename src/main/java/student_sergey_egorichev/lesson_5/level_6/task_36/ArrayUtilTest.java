@@ -1,5 +1,9 @@
 package student_sergey_egorichev.lesson_5.level_6.task_36;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = false)
 class ArrayUtilTest {
 
     public static void main(String[] args) {
@@ -21,6 +25,8 @@ class ArrayUtilTest {
         }
     }
 
+    @CodeReviewComment(teacher = "А что будет если массив будет пустым? "
+			+ "Где тест на этот случай?")
     public void shouldFindMaxNumber() {
         int[] testArray = {12, 8, 35, 4};
         int expectedMaxValue = 35;

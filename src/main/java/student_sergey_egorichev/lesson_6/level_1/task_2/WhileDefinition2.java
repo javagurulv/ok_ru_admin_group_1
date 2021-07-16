@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_6.level_1.task_2;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class WhileDefinition2 {
 
     public static void main(String[] args) {

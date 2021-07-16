@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_7.level_4.task_17;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class SquareTest {
     public static void main(String[] args) {
 

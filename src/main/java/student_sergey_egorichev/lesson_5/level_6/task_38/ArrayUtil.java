@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_5.level_6.task_38;
 
 import java.util.Arrays;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

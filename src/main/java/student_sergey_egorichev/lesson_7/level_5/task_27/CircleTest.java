@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_7.level_5.task_27;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class CircleTest {
     public static void main(String[] args) {
 

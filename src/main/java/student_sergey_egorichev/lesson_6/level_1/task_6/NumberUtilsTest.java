@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_6.level_1.task_6;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class NumberUtilsTest {
 
     public static void main(String[] args) {

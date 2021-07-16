@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_5.level_2.task_14;
 
 import java.util.Arrays;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayMedian {
 
     public static void main(String[] args) {

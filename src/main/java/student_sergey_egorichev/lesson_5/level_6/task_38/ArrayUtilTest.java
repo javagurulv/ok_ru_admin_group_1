@@ -1,5 +1,9 @@
 package student_sergey_egorichev.lesson_5.level_6.task_38;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = false)
 class ArrayUtilTest {
 
     public static void main(String[] args) {
@@ -35,6 +39,7 @@ class ArrayUtilTest {
         }
     }
 
+    @CodeReviewComment(teacher = "Где тест на пустой массив?")
     public void shouldFindMinNumber() {
         int[] testArray = {12, 8, 35, 4};
         int expectedMinValue = 4;

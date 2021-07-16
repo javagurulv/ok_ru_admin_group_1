@@ -16,6 +16,9 @@ package student_ivan_buymov.lesson_3.level_5.task_18_22;
 объявить в нём main() метод и продемонстрировать
 использование класса собака (Dog). */
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Dog {
     String name;
 

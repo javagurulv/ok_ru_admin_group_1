@@ -1,5 +1,7 @@
 package student_sergey_egorichev.lesson_7.level_3.task_9;
 
+import teacher.codereview.CodeReview;
+
 /*
     Что такое абстрактный класс?
         Это класс который определяет базовый функционал классов, которые
@@ -12,6 +14,7 @@ package student_sergey_egorichev.lesson_7.level_3.task_9;
 
 
  */
+@CodeReview(approved = true)
 abstract class AbstractClass {
 
     public int index;

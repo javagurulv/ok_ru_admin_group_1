@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_6.level_7.task_33;
 
 import java.util.Arrays;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class TicTacToeTest {
     /**
      * run tests

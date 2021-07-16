@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_5.level_4.task_29;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class RandomArray {
 
     public static void main(String[] args) {
@@ -28,20 +31,35 @@ class RandomArray {
     }
 
     private static int[] getEven(int[] someArray) {
-        int evenArrayLength = 0;
-        int evenCount = 0;
-        for (int i = 0; i < someArray.length; i ++) {
-            if (someArray[i] % 2 == 0) {
-                evenArrayLength ++;
-            }
-        }
+        int evenArrayLength = countEventNumbers(someArray);
         int[] evenArray = new int[evenArrayLength];
-        for (int i = 0; i < someArray.length; i ++) {
-            if (someArray[i] % 2 == 0) {
-                 evenArray[evenCount] = someArray[i];
-                 evenCount ++;
-            }
-        }
+		fillEvenNumbers(someArray, evenArray);
         return evenArray;
     }
+
+    private static void fillEvenNumbers(int[] someArray,
+										int[] evenNumbers) {
+		int evenCount = 0;
+		for (int i = 0; i < someArray.length; i ++) {
+			if (isEven(someArray[i])) {
+				evenNumbers[evenCount] = someArray[i];
+				evenCount ++;
+			}
+		}
+	}
+
+    private static int countEventNumbers(int[] arr) {
+		int evenArrayLength = 0;
+		for (int i = 0; i < arr.length; i ++) {
+			if (isEven(arr[i])) {
+				evenArrayLength ++;
+			}
+		}
+		return evenArrayLength;
+	}
+
+	private static boolean isEven(int number) {
+    	return number % 2 == 0;
+	}
+
 }

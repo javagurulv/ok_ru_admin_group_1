@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_7.level_5.task_27;
 
 import java.util.Random;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class ShapeUtil {
 
     private static int getRandom() {
