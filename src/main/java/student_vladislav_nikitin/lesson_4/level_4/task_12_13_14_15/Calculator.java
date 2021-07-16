@@ -1,5 +1,8 @@
 package student_vladislav_nikitin.lesson_4.level_4.task_12_13_14_15;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Calculator {
     public static int summing(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;

@@ -2,6 +2,9 @@ package student_sergey_kuzmin.lesson_2.level_3_junior.task_9;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Multiplication {
     public static void main(String[] args){
 

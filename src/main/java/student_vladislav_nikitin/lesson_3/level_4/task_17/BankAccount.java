@@ -1,5 +1,8 @@
 package student_vladislav_nikitin.lesson_3.level_4.task_17;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class BankAccount {
 
     String ownerFirstName;

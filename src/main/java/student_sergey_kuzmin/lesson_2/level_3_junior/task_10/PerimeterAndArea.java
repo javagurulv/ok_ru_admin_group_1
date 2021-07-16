@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 import static java.lang.Math.*;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class PerimeterAndArea {
     public static void main(String[] args){
 

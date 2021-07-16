@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_3.level_2.task_9;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ScanName {
     public static String getName() {
         Scanner scanner = new Scanner(System.in);

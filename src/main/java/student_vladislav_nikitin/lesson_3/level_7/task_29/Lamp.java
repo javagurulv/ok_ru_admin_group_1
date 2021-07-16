@@ -1,5 +1,8 @@
 package student_vladislav_nikitin.lesson_3.level_7.task_29;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Lamp {
     private int brightness = 0;
     private boolean state = false;
