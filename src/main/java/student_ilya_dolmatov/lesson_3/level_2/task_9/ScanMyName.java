@@ -12,8 +12,8 @@ class ScanMyName {
 			+ "Это нужно для лучшей читаемости кода.")
 	public static void main(String[] args) {
         System.out.print("Hello traveler!\nIt's dangerous to go alone, say your name!\n");
-        Scanner AskName = new Scanner(System.in);
-        String TravelerName = AskName.next();
-        System.out.print("May be force be with you, " + TravelerName + "!");
+        Scanner askName = new Scanner(System.in);
+        String travelerName = askName.next();
+        System.out.print("May be force be with you, " + travelerName + "!");
     }
 }

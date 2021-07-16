@@ -9,6 +9,6 @@ class RobotDemo {
 	@CodeReviewComment(teacher = "ZayacVolk - переменные в Java принято называть с маленткой буквы."
 			+ "Это нужно для лучшей читаемости кода.")
     public static void main(String[] args) {
-        Robot ZayacVolk = new Robot();
+        Robot zayacVolk = new Robot();
     }
 }

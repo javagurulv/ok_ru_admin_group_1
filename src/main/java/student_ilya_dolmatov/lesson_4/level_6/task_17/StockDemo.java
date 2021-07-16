@@ -1,6 +1,5 @@
 package student_ilya_dolmatov.lesson_4.level_6.task_17;
 
-// Still in progress with tests ... =(
 class StockDemo {
     public static void main(String[] args) {
         Stock google = new Stock("GOOG", 10);

@@ -5,7 +5,7 @@ import teacher.codereview.CodeReview;
 @CodeReview(approved = false)
 class RobotDemo {
     public static void main(String[] args) {
-        Robot ZayacVolk = new Robot();
-        ZayacVolk.sayHello();
+        Robot zayacVolk = new Robot();
+        zayacVolk.sayHello();
     }
 }
