@@ -1,6 +1,7 @@
 package teacher.lesson_10_collections.lessoncode;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -9,6 +10,8 @@ public class SetExample extends Object {
 	public static void main(String[] args) {
 
 		Set<String> authors = new HashSet<>();
+
+		Set<List<String>> as = new HashSet<>();
 
 		System.out.println("Set isEmpty = " + authors.isEmpty());
 
@@ -21,6 +24,8 @@ public class SetExample extends Object {
 		authors.add("C2");
 		authors.add("C3");
 		authors.add("C4");
+		authors.add("C4");
+
 
 		for (String author : authors) {
 			System.out.println(author);
@@ -62,6 +67,8 @@ public class SetExample extends Object {
 		for (String title : titles) {
 			System.out.println(title);
 		}
+
+		Set<String> authorsSorted = new TreeSet<>();
 
 	}
 

@@ -50,6 +50,8 @@ public class ListExample {
 
 		numbers.remove(0);
 
+		numbers.contains(Integer.parseInt("777"));
+
 		numbers.remove(Integer.parseInt("5"));
 
 		List<Integer> numbersToRemove = new ArrayList<>();

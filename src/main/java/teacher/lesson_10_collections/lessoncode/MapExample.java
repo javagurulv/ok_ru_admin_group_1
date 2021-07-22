@@ -1,6 +1,7 @@
 package teacher.lesson_10_collections.lessoncode;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -18,9 +19,13 @@ public class MapExample {
 		// dog - 5
 		// phone - 1
 
+		Map<String, List<Integer>> serverParamsMap = new HashMap<>();
+
+
 		Map<String, Integer> wordToCountMap = new HashMap<>();
 
 		wordToCountMap.put("cat", 5);
+		wordToCountMap.put("cat", 7);
 		wordToCountMap.put("dog", 5);
 		wordToCountMap.put("phone", 1);
 
