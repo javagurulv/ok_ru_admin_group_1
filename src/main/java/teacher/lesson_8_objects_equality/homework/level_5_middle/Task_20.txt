@@ -10,10 +10,10 @@ public String getSuperClassName(String fullClassName) {
 
 Для решения задачи воспользуйтесь методом getSuperclass() у
 инстанции класса Class.
-https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html#getSuperclass
+https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html#getSuperclass--
 
 А для получения названия класса можно воспользоваться методом getName()
-https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html#getName
+https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html#getName--
 
 
 В классе ReflectionUtilTest напишите тесты для метода
