@@ -7,7 +7,7 @@ This class made for this comment only
 import teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
-public class SomeCommentsHere {
+class SomeCommentsHere {
     public static void main(String[] args) {
         // just print some text
         System.out.println("Hello world");

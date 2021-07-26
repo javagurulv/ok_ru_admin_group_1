@@ -1,6 +1,6 @@
 package student_ivan_buymov.lesson_3.level_3.task_11_13;
 
-public class Robot {
+class Robot {
 
     String name;
 

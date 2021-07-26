@@ -1,6 +1,6 @@
 package student_ivan_buymov.lesson_3.level_3.task_11_13;
 
-public class RobotDemo {
+class RobotDemo {
 
     public static void main(String[] args) {
         var robotOne = new Robot("One");
