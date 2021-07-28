@@ -1,9 +1,14 @@
 package student_ilya_dolmatov.lesson_4.level_5.task_16;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
 
+@CodeReview(approved = true)
 class LightColorDetector {
     int wavelength;
 
+    @CodeReviewComment(teacher = "Дефолтный конструктор в классе писать не обязательно."
+			+ "Его добавит компилятор Java.")
     LightColorDetector() {
     }
 

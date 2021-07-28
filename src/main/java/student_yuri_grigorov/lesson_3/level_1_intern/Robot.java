@@ -1,5 +1,8 @@
 package student_yuri_grigorov.lesson_3.level_1_intern;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Robot {
 
     public Robot() {

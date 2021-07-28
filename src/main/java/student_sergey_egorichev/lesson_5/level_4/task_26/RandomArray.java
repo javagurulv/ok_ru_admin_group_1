@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_5.level_4.task_26;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class RandomArray {
 
     public static void main(String[] args) {

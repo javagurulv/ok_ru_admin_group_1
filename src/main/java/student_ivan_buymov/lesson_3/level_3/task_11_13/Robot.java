@@ -1,6 +1,9 @@
 package student_ivan_buymov.lesson_3.level_3.task_11_13;
 
-class Robot {
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
+public class Robot {
 
     String name;
 

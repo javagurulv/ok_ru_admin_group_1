@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_4.level_4.task_11;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorDemo {
     static int getUserNumber() {
         Scanner scanner = new Scanner(System.in);

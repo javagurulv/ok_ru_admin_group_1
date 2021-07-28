@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_4.level_3.task_9;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class OrderDirection {
     static int getUserNumber() {
         Scanner scanner = new Scanner(System.in);

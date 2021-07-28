@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_4.level_1.task_4;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class OddOrNot {
     static int getUserNumber() {
         Scanner scanner = new Scanner(System.in);

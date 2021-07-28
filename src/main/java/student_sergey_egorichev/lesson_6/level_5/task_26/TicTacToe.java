@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_6.level_5.task_26;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class TicTacToe {
 
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
@@ -54,16 +57,20 @@ public class TicTacToe {
     public boolean isDrawPosition(int[][] field) {
         boolean someoneWin = (isWinPosition(field, 0)
                 || isWinPosition(field, 1));
-        boolean hasEmpty = false;
-        for (int[] line: field) {
-            for (int element: line) {
-                if (element == -1) {
-                    hasEmpty = true;
-                    break;
-                }
-            }
-        }
-        return (!someoneWin && !hasEmpty);
+		return (!someoneWin && !hasEmptyField(field));
     }
+
+	private boolean hasEmptyField(int[][] field) {
+		boolean hasEmpty = false;
+		for (int[] line: field) {
+			for (int element: line) {
+				if (element == -1) {
+					hasEmpty = true;
+					break;
+				}
+			}
+		}
+		return hasEmpty;
+	}
 
 }

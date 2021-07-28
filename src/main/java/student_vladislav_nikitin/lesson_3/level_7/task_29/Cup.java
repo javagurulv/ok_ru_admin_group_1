@@ -1,5 +1,8 @@
 package student_vladislav_nikitin.lesson_3.level_7.task_29;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Cup {
     private String material;
     private int fullness;

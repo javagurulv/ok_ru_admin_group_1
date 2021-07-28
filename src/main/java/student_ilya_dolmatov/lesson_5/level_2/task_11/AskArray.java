@@ -2,6 +2,9 @@ package student_ilya_dolmatov.lesson_5.level_2.task_11;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class AskArray {
     public static void main(String[] args) {
         int[] array = new int[3];

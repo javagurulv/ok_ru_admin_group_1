@@ -1,5 +1,8 @@
 package student_sergey_egorichev.lesson_5.level_6.task_37;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = false)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

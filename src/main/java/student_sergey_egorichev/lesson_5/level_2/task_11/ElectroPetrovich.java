@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_5.level_2.task_11;
 
 import java.util.Random;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class ElectroPetrovich {
     public static void hello() {
         String[] greeting = {"Здравствуй, мой любознательный друг! Это снова я, электроПетрович",

@@ -2,6 +2,9 @@ package student_sergey_kuzmin.lesson_2.level_1_intern.task_1;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Calc {
 
     public static void main(String[] args) {

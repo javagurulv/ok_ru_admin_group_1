@@ -1,5 +1,8 @@
 package student_ilya_dolmatov.lesson_3.level_7.task_31;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Product {
     String name;
     Double regularPrice = 99999.0;

@@ -3,6 +3,9 @@ package student_sergey_egorichev.lesson_5.level_7.task_41;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class ArrayUtil {
 
     public static int[] createArray(int arrayLength) {

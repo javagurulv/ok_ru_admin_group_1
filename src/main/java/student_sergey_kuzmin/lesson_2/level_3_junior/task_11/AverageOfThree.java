@@ -2,6 +2,9 @@ package student_sergey_kuzmin.lesson_2.level_3_junior.task_11;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class AverageOfThree {
     public static void main(String[] args) {
 

@@ -2,6 +2,9 @@ package student_vladislav_nikitin.lesson_4.level_4.task_12_13_14_15;
 
 import java.text.DecimalFormat;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();

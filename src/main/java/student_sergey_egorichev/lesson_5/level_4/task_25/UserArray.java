@@ -2,6 +2,9 @@ package student_sergey_egorichev.lesson_5.level_4.task_25;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class UserArray {
 
     public static void main(String[] args) {

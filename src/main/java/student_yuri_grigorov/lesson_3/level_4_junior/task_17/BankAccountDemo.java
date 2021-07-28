@@ -1,5 +1,8 @@
 package student_yuri_grigorov.lesson_3.level_4_junior.task_17;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class BankAccountDemo {
 
     public static void main(String[] args) {

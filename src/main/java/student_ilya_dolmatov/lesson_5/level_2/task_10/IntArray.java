@@ -2,6 +2,9 @@ package student_ilya_dolmatov.lesson_5.level_2.task_10;
 
 import java.util.Random;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class IntArray {
     public static void main(String[] args) {
 

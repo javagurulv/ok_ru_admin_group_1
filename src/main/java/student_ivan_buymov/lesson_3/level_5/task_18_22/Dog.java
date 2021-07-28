@@ -1,5 +1,8 @@
 package student_ivan_buymov.lesson_3.level_5.task_18_22;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Dog {
     private String name;
     private Integer age;
@@ -25,3 +28,5 @@ class Dog {
         this.color = newColor;
     }
 }
+
+

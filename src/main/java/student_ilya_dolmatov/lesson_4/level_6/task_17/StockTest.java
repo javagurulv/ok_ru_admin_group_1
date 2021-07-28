@@ -1,5 +1,8 @@
 package student_ilya_dolmatov.lesson_4.level_6.task_17;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class StockTest {
     StockTest(){}
 

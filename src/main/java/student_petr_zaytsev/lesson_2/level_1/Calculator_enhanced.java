@@ -1,6 +1,9 @@
 package student_petr_zaytsev.lesson_2.level_1;
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Calculator_enhanced {
     public static void main(String[] args) {
 

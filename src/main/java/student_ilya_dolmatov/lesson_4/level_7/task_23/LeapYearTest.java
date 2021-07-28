@@ -1,5 +1,8 @@
 package student_ilya_dolmatov.lesson_4.level_7.task_23;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LeapYearTest {
     public static void main(String[] args) {
 

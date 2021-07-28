@@ -2,6 +2,9 @@ package student_yuri_grigorov.lesson_3.level_2_intern;
 
 import java.util.Scanner;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class WorkingWithStrings {
 
     public static void main(String[] args) {

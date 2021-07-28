@@ -1,5 +1,8 @@
 package student_yuri_grigorov.lesson_3.level_7_senior.task_30;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CircleDemo {
 
     static void printArea(Circle circle) {
