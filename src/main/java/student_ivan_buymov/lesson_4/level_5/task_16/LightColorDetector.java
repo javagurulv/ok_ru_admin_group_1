@@ -13,16 +13,16 @@ public class LightColorDetector {
             return "Violet";
         }
         if (isInsideRange(wavelength, 450, 494)) {
-            return "Violet";
+            return "Blue";
         }
         if (isInsideRange(wavelength, 495, 569)) {
-            return "Violet";
+            return "Green";
         }
         if (isInsideRange(wavelength, 590, 619)) {
-            return "Violet";
+            return "Yellow";
         }
         if (isInsideRange(wavelength, 620, 750)) {
-            return "Violet";
+            return "Orange";
         }
         return "Invisible Light";
 
