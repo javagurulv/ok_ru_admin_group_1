@@ -1,7 +1,7 @@
 package student_ivan_buymov.lesson_4.level_5.task_16;
 
 
-public class LightColorDetector {
+class LightColorDetector {
 
     public Boolean isInsideRange(int value, int start, int finish) {
         return (value >= start) && (value <= finish);
