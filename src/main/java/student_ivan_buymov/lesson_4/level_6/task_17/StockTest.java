@@ -43,8 +43,6 @@ public class StockTest {
             System.out.println("FAIL: max price should be " + expectedMaxPrice);
         }
 
-
-
         // Изменение цены акции: 999 -> 1  = Максимальная цена за указанный переуд: 999
         var expectedMinPrice = 1f;
         stock.updatePrice(1f);
@@ -79,9 +77,6 @@ public class StockTest {
         } else {
             System.out.println("FAIL: max price should be " + expectedMaxPrice);
         }
-
-
-
 
     }
 }
