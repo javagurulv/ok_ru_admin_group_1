@@ -2,7 +2,7 @@ package student_ivan_buymov.lesson_2.level_1;
 
 import java.util.Scanner;
 
-public class doubleOperations {
+class doubleOperations {
     public static void main(String[] args) {
         doMathOperations();
     }

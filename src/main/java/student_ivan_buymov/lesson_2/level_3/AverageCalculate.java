@@ -3,7 +3,7 @@ package student_ivan_buymov.lesson_2.level_3;
 
 import java.util.Scanner;
 
-public class AverageCalculate {
+class AverageCalculate {
 
     public static void main(String[] args) {
         var s = new Scanner(System.in);
