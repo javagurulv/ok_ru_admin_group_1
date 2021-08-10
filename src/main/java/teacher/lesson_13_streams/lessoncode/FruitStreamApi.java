@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -23,9 +25,18 @@ public class FruitStreamApi {
 		return fruits;
 	}
 
-	public List<Fruit> findAllApples() {
-		Stream<Fruit> fruitStream = fruits.stream();
+	public List<Fruit> findAllApplesV2() {
+		return fruits.stream()
+				.filter(new Predicate<Fruit>() {
+					@Override
+					public boolean test(Fruit fruit) {
+						return "apple".equals(fruit.getTitle());
+					}
+				})
+				.collect(Collectors.toList());
+	}
 
+	public List<Fruit> findAllApplesV1() {
 		return fruits.stream()
 				.filter(fruit -> "apple".equals(fruit.getTitle()))
 				.collect(Collectors.toList());
@@ -39,7 +50,19 @@ public class FruitStreamApi {
 				.collect(Collectors.toList());
 	}
 
-	public Set<String> findAllFruitUniqNames() {
+	public Set<String> findAllFruitUniqNamesV2() {
+		return fruits.stream()
+				.map(new Function<Fruit, String>() {
+					@Override
+					public String apply(Fruit fruit) {
+						return fruit.getTitle();
+					}
+				})
+				.collect(Collectors.toSet());
+	}
+
+
+	public Set<String> findAllFruitUniqNamesV1() {
 		return fruits.stream()
 					 .map(fruit -> fruit.getTitle())
 					 .collect(Collectors.toSet());
@@ -54,6 +77,7 @@ public class FruitStreamApi {
 	}
 
 	public Optional<Fruit> findAnyApple() {
+		// Optional.empty();
 		return fruits.stream()
 					 .filter(fruit -> "apple".equals(fruit.getTitle()))
 					 .findAny();

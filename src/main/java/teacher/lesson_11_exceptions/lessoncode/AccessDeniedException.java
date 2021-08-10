@@ -4,7 +4,8 @@ public class AccessDeniedException extends Exception {
 
 	private String invalidSequrityKey;
 
-	public AccessDeniedException(String message, String invalidSequrityKey) {
+	public AccessDeniedException(String message,
+								 String invalidSequrityKey) {
 		super(message);
 		this.invalidSequrityKey = invalidSequrityKey;
 	}

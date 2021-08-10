@@ -27,7 +27,7 @@ public class BankApiV2 {
 			} else {
 				System.out.println("Client full name " + result.get());
 			}
-		}  finally {
+		} finally {
 			System.out.println("Finally");
 		}
 	}
