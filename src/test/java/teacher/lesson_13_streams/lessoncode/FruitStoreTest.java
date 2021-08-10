@@ -61,6 +61,16 @@ public class FruitStoreTest {
 
 	@Test
 	public void findFruitsBySearchCriteria_RedTomatosBiggerThen100G() {
+		FruitSearchCriteria searchCriteria =
+				new FruitSearchCriteria() {
+					@Override
+					public boolean test(Fruit fruit) {
+						return "tomato".equals(fruit.getTitle())
+								&& "red".equals(fruit.getColor())
+								&& fruit.getWeight() > 100;
+					}
+				};
+
 		List<Fruit> apples = fruitStore.findFruitsBySearchCriteria(
 				new FruitSearchCriteria() {
 					@Override

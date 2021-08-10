@@ -69,6 +69,11 @@ public class FruitStreamApi {
 	}
 
 	public List<String> findAllFruitUniqueNames() {
+		Optional<Fruit> red = fruits.stream()
+				//.parallel()
+				.filter(fruit -> "red".equals(fruit.getColor()))
+				.findFirst();
+
 		return fruits.stream()
 				.map(Fruit::getTitle)
 				//.map(fruit -> fruit.getTitle())
