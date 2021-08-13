@@ -1,5 +1,4 @@
 package student_ivan_buymov.lesson_4.level_6.task_17;
-import java.lang.Float;
 
 public class StockTest {
     public static void main(String[] args) {
