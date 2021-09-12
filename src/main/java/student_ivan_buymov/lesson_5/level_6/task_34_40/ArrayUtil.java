@@ -144,4 +144,17 @@ class ArrayUtil {
         return max;
     }
 
+    public int findMinNumber(int[] array) throws ArrayIsEmpty {
+        if (array.length == 0) {
+            throw new ArrayIsEmpty("can't find max element in empty list");
+        }
+        var min = array[0];
+        for(int i = 0; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
+            }
+        }
+        return min;
+    }
+
 }
