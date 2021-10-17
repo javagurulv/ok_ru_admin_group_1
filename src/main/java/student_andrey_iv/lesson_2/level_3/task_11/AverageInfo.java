@@ -13,7 +13,7 @@ public class AverageInfo {
             array[i] = input.nextFloat();
             result = result * array[i];
         }
-        
+
         final_result = result / array.length;
         System.out.println( "Average for this numbers: " + final_result);
     }
